@@ -1,0 +1,105 @@
+h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+body {
+    color: rgb(226, 215, 215);
+    background-color: rgb(67, 71, 71);
+    font-family: monaco, Consolas, Lucida Console, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+    font-size: 16px;
+    min-width: 600px;
+}
+
+#controls {
+    display: grid;
+    margin-top: 8px;
+    margin-left: 90px;
+    margin-right: 90px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    max-width: 1000px;
+    min-height: 500px;
+    min-width: 1000px;
+    border: 5px solid #331719;
+    background-color: rgb(48, 46, 44);
+    border-radius: 1%;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 1%;
+}
+
+input {
+    width: 300px;
+}
+
+.delete-button {
+    background-color: #af4c4c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1px 1px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.read-button {
+    background-color: #af7a16;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1px 1px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: #af7a16;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 11px 11px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 22px 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.grid-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-item-text {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.grid-item-top {
+    text-decoration: underline;
+}

@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Your Library</title>
     <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
-    <h3>Library</h3>
+    <h3>Your Library</h3>
+    <div id="container">
+        <form id="controls">
+            <h4>Title:</h4>
+            <h4>Author:</h4>
+            <h4>Read:</h4>
+            <input type="text" id="ftitle" name="ftitle" />
+            <input type="text" id="fauthor" name="fauthor" />
+            <select name="read" id="fread" name="fread">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <input id="submit" type="submit" value="Submit" onClick="addBookToLibrary(this.form)" />
+        </form>
+        <hr>
+        <div id="content">
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
